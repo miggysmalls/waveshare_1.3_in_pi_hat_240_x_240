@@ -39,5 +39,5 @@ draw.text((90, 140), '1.3inch LCD ', fill = "BLUE")
 disp.ShowImage(image1,0,0)
 time.sleep(3)
 
-image = Image.open('pic.jpg')	
+image = Image.open('./data/blue_orange_eye.jpg')
 disp.ShowImage(image,0,0)
